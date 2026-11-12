@@ -1,0 +1,33 @@
+{
+  "name": "secure-notes-vault",
+  "version": "1.0.0",
+  "description": "Secure Personal Notes & Task Vault - A secure full-stack web application with JWT authentication, bcrypt password hashing, and user data isolation.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js",
+    "server": "node server.js",
+    "test": "node tests/acceptanceTest.js"
+  },
+  "keywords": [
+    "security",
+    "notes",
+    "vault",
+    "jwt",
+    "bcrypt",
+    "mongodb",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
